@@ -47,7 +47,7 @@
     cursor: pointer;
     padding-bottom: 2.5px;
 }
-@media (min-width:999px) {
+@media (max-width:999px) {
     .mobile_navlink{
         position: fixed;
     }
@@ -101,6 +101,11 @@
     color: black;
 }
 
+@media (max-width:499px){
+    .mobile_nav img{
+        margin:-13px;
+    }
+}
 @keyframes mobile_navlink{
     0%{
         width:0vw;
@@ -131,11 +136,6 @@
     }
     100%{
         transform: rotate(0deg);
-    }
-}
-@media (min-width:0px) and (max-width:499px){
-    .mobile_nav{
-       top:20px;
     }
 }
 @media (min-width:999px){
