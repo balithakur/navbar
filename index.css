@@ -74,6 +74,7 @@
 #close_image{
     width:25px;
     display: none;
+    margin: 6px;
 }
 .mobile_navlink{
     display: none;
@@ -86,6 +87,7 @@
     align-items:center;
     visibility: hidden;
     overflow: hidden;
+    background-color: whitesmoke;
 }
 .mobile_link ul li{
     list-style: none;
@@ -148,5 +150,81 @@
     }
     100%{
         width:100%;
+    }
+}
+/*hero section css*/
+.heroSection{
+    width:100%;
+    height:auto;
+    display: flex;
+}
+.left{
+    width:50%;
+    margin-top: 25px;
+}
+.left h1{
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 32px;
+    color:red;
+    margin: 20px;
+    margin-top: 110px;
+}
+.left p{
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px;
+}
+.right{
+    margin-top: 100px;
+    width:50%;
+    height:auto;
+}
+#video{
+    width:80%;
+    border-radius: 200px;
+    margin: 20px;
+}
+/*css for phone*/
+@media (max-width:1000px){
+    .heroSection{
+        display: inline-block;
+    }
+    .left{
+        width:100%;
+        display: inline-block;
+        margin: 0px;
+    }
+    .left h1{
+        font-size: 28px;
+    }
+    .left p{
+        font-size: 18px;
+    }
+    .right{
+        width:100%;
+        margin: 0px;
+    }
+    #video{
+        width:50%;
+        margin-left: 22%;
+    }
+
+}
+@media (max-width:500px){
+    .left{
+        margin:0px;
+    }
+    .left p{
+        font-size: 14.5px;
+    }
+    .right{
+        margin: 0px;
+        width:100%;
+    }
+    #vedio{
+        margin-left: 0px;
+        width:99vw;
     }
 }
