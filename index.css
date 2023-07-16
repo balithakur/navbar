@@ -47,7 +47,7 @@
     cursor: pointer;
     padding-bottom: 2.5px;
 }
-@media (max-width:999px) {
+@media (min-width:999px) {
     .mobile_navlink{
         position: fixed;
     }
@@ -57,9 +57,10 @@
         width:auto;
     }
 }
+
+
+
 /* Navbar for mobile users*/
-
-
 .mobile_nav{
     width:10%;
     position: relative;
