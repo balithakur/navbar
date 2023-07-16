@@ -102,11 +102,6 @@
     color: black;
 }
 
-@media (max-width:499px){
-    .mobile_nav img{
-        margin:-13px;
-    }
-}
 @keyframes mobile_navlink{
     0%{
         width:0vw;
