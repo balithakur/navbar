@@ -1,0 +1,69 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.heroSection{
+    width:100%;
+    height:auto;
+    display: flex;
+}
+.left{
+    width:50%;
+}
+.left h1{
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 32px;
+    color:red;
+    margin: 20px;
+    margin-top: 80px;
+}
+.left p{
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px;
+}
+.right{
+    margin-top: 80px;
+    width:50%;
+    height:auto;
+}
+#video{
+    width:80%;
+    border-radius: 200px;
+    margin: 20px;
+}
+/*css for phone*/
+@media (max-width:1000px){
+    .heroSection{
+        display: inline-block;
+    }
+    .left{
+        width:100%;
+        display: inline-block;
+    }
+    .left h1{
+        font-size: 28px;
+    }
+    .left p{
+        font-size: 18px;
+    }
+    .right{
+        width:100%;
+        margin: 20px;
+    }
+    #video{
+        width:50%;
+        margin-left: 22%;
+    }
+
+}
+@media (max-width:500px){
+    .left p{
+        font-size: 16px;
+    }
+    #vedio{
+        width:100%;
+    }
+}
