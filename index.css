@@ -164,7 +164,7 @@
 }
 .left h1{
     font-family: Manrope;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 32px;
     color:red;
     margin: 20px;
@@ -257,12 +257,12 @@
 }
 .tech h2{
     font-family: Manrope;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 24px;
 }
 .tech p{
     font-family: Manrope;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
 }
 .tech button{
