@@ -302,6 +302,12 @@
     .tech img{
         width: 25%;
     }
+    .tech h2{
+        font-size: 20px;
+    }
+    .tech p {
+        font-size: 15px;
+    }
     .tech button{
         width: 30vw;
     }
