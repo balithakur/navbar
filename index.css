@@ -278,14 +278,12 @@
 }
 @media (max-width:1000px){
     .tech{
-        width:98vw;
         display: grid;
         gap: 20px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         justify-items: center;
         align-items: center;
-        padding: 10px;
     }
     .tech h1{
         text-align: center;
