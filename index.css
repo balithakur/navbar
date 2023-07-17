@@ -231,7 +231,7 @@
 
 /*blog section css*/
 .blogsection{
-    width:100%;
+    width:99vw;
     display: flex;
     justify-content: center;
 }
